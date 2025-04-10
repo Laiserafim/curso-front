@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <h2>FORMS</h2>
+    <form action="register.ph"´method ="GET">
+        <div>
+            <label>Nome:</label>
+            <input type="text">
+        </div>
+        <div>
+            <label for="age">Idade</label>
+            <input type="text" name="age">
+        </div>
+
+        <div>
+            <label for="job">Selecione a profissão</label>
+            <select name="job">
+                <option value="programador">Programador</option>
+                <option value="tester">Tester/QA</option>
+                <option value="devops">DevOvps</option>
+            </select>
+        </div>
+
+        <div>
+            <label for="contract">Você leu os termos do contrato?</label>
+            <select name="contract">
+                <option value="sim">Sim</option>
+                <option value="nao" selected>Não</option>
+            </select>
+        </div>
+
+        <div>
+            <label for="items">Selecione os itens desejados</label>
+            <select name="items" multiple >
+                <option value="pera">Pêra</option>
+                <option value="uva">Uva</option>
+                <option value="maca">Maçã</option>
+                <option value="melancia">melancia</option>
+            </select>
+        </div>
+        <div>
+            <label for="content">Escreva um comentário</label>
+            <textarea name="coment"></textarea>
+        </div>
+
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
