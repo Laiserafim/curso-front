@@ -16,7 +16,7 @@
         <div>
             <label for="age">Idade</label>
             <input type="text" name="age">
-        </div>
+        </div> 
 
         <div>
             <label for="job">Selecione a profissão</label>
@@ -48,8 +48,56 @@
             <label for="content">Escreva um comentário</label>
             <textarea name="coment"></textarea>
         </div>
+        <div>
+            <fieldset>
+                <legend>Preençha os dados: </legend>
+                <label for="firstname">Nome:</label>
+                <input type="text" name="firstname">
+                <label for="lastname">Sobrenome:</label>
+                <input type="text" name="lastname">
+            </fieldset>
+        </div>
 
+        <div>
+            <label for="flavor">Sabor</label>
+            <input type="text" list="flavors" name="flavor">
+
+            <datalist id="flavors">
+                <option value="Ceraja"></option>
+                <option value="Morango"></option>
+                <option value="Chocolate"></option>
+                <option value="Abacaxi"></option>
+            </datalist>
+        </div>
+
+        <div>
+            <label for="birthday">Data de nascimento</label>
+            <input type="date" name="birthday">
+        </div>
+
+        <div>
+            <label for="image">Insira uma foto</label>
+            <input type="file" name="image" >
+        </div>
+
+        <div>
+            <label for="email">Digite o seu e-mail:</label>
+            <input type="email" name="email">
+        </div>
+
+        <div>
+            <label for="currentjob">Profissão</label>
+            <input type="text" name="currentjob" placeholder="Emprego atual">
+        </div>
+
+        <div>
+            <label for="birthday">Ano nascimento:</label>
+            <input type="text" placeholder="Digite o ano em que nasceu" required>
+        </div>
+
+        <input type="reset" value="Limpar">
         <input type="submit" value="Enviar">
+
     </form>
 </body>
 </html>
