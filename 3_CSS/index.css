@@ -1,0 +1,32 @@
+p{
+    color: brown
+}
+
+h2{
+    color: green;
+    font-size: small;
+}
+
+.paragrafo{
+    background-color: black;
+    color:aqua;
+}
+
+#exclusivo{
+    background-color: blue;
+    color:black ;
+}
+
+#desafio{
+    margin: 15px ;
+    padding: 15px;
+    border: 5px solid #982;
+    outline: 5px, solid #858;
+    background-color: red;
+}
+
+.desafio02{
+    background-color: blue;
+    color: #ec1c1c;
+    border: none ;
+}
